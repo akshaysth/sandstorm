@@ -30,7 +30,7 @@ jobs:
 
       - name: Convert Jupyter Notebooks to HTML
         run: |
-          jupyter nbconvert _posts/*.ipynb --to html --output-dir _posts
+          jupyter nbconvert notebooks/*.ipynb --to html --output-dir _posts
 
       - name: Build Jekyll Site
         run: bundle exec jekyll build
