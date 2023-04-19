@@ -30,7 +30,11 @@ jobs:
 
       - name: Convert Jupyter Notebooks to HTML
         run: |
-          jupyter nbconvert notebooks/*.ipynb --to html --output-dir _posts
+          jupyter nbconvert _notebooks/*.ipynb --to markdown --output-dir _posts
+
+      - name: Add Frontmatter for posts
+        run: |
+          python add_frontmatter.py
 
       - name: Build Jekyll Site
         run: bundle exec jekyll build

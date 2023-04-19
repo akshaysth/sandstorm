@@ -1,8 +1,9 @@
 ---
+title: First post
 layout: post
-title: "First post!"
-date: 2023-04-18 12:32:24 -0400
-categories: jekyll update
+date: 2023-04-19 16:26:54 -0400
+categories: data
+tags: jekyll update
 ---
 
 Hi this is a test!
