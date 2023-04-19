@@ -1,8 +1,17 @@
 title: Sandstorm CTI
 description: Cyber Threat Intelligence
 theme: minima
-exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
-collections_dir: *
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+  ]
+collections_dir: .
 layouts_dir: _layouts
 collections:
   posts:
