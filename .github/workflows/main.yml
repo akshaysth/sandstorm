@@ -34,7 +34,7 @@ jobs:
 
       - name: Add Frontmatter for posts
         run: |
-          pip install front,matter
+          pip install frontmatter
           python add_frontmatter.py
 
       - name: Build Jekyll Site
